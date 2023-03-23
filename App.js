@@ -1,7 +1,8 @@
-import React, {Component} from React;
+import React, {Component} from 'react';
 import {StyleSheet,View,Text,TextInput,TouchableOpacity} from 'react-native';
+import HomeScreen from './screens/HomeScreen';
 import { Header } from 'react-native-elements';
-export default class HomeScreen extends React.Component{
+export default class App extends React.Component{
     constructor() {
         super();
         this.state = {
@@ -11,6 +12,11 @@ export default class HomeScreen extends React.Component{
       }
     render()  {
          return (
+            <View>
+                <HomeScreen/>
+            </View>
+
+         )
             
                 
             
